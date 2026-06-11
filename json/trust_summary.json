@@ -1,0 +1,16 @@
+{
+  "total_events": 49999,
+  "mean_trust_score_all": 0.8239054781095623,
+  "mean_trust_score_fraud": 0.8234531129900077,
+  "mean_trust_score_legit": 0.823958031030249,
+  "stir_shaken_dist": {
+    "A": 25082,
+    "B": 10017,
+    "C": 9008,
+    "NONE": 5892
+  },
+  "tls_fail_rate": 0.10020200404008084,
+  "device_attest_fail_rate": 0.1021820436408728,
+  "geo_mismatch_rate": 0.19710394207884158,
+  "generated_at": "2026-06-11T18:32:37.864876"
+}

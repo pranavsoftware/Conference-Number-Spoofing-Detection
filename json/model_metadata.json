@@ -1,0 +1,105 @@
+{
+  "project": "Conference Number Spoofing Detection",
+  "version": "1.0.0",
+  "pipeline_layers": 5,
+  "dataset": {
+    "source": "jakefurgoson/fraud-detection-using-call-detail-records (Kaggle)",
+    "events_used": 49999,
+    "fraud_rate_pct": 10.41
+  },
+  "models": {
+    "behavior_anomaly": {
+      "type": "IsolationForest",
+      "n_estimators": 200,
+      "artifact": "model/artifacts/behavior_anomaly_model.pkl"
+    },
+    "voice_risk": {
+      "type": "RandomForestClassifier",
+      "n_estimators": 150,
+      "roc_auc": 0.5034444993785865,
+      "artifact": "model/artifacts/voice_risk_model.pkl"
+    },
+    "network_pattern": {
+      "type": "RandomForestClassifier",
+      "n_estimators": 150,
+      "roc_auc": 0.47658588559966697,
+      "artifact": "model/artifacts/network_pattern_model.pkl"
+    },
+    "nlp_risk": {
+      "type": "TF-IDF + LogisticRegression",
+      "roc_auc": 0.5077480193418218,
+      "artifact": "model/artifacts/nlp_risk_model.pkl"
+    },
+    "risk_fusion": {
+      "type": "GradientBoostingClassifier",
+      "n_estimators": 150,
+      "roc_auc": 0.4879945131621597,
+      "artifact": "model/artifacts/risk_fusion_model.pkl"
+    }
+  },
+  "fusion_weights": {
+    "trust_risk": 0.15,
+    "behavior_risk": 0.2,
+    "voice_risk": 0.2,
+    "network_risk": 0.15,
+    "reputation_risk": 0.15,
+    "transcript_risk": 0.15
+  },
+  "risk_thresholds": {
+    "allow": {
+      "min": 0.0,
+      "max": 0.2850664255307757,
+      "action": "ALLOW",
+      "severity": "LOW"
+    },
+    "warn": {
+      "min": 0.2850664255307757,
+      "max": 0.3173754997888126,
+      "action": "WARN",
+      "severity": "MEDIUM"
+    },
+    "quarantine": {
+      "min": 0.3173754997888126,
+      "max": 0.3696613547031436,
+      "action": "QUARANTINE",
+      "severity": "HIGH"
+    },
+    "block": {
+      "min": 0.3696613547031436,
+      "max": 1.0,
+      "action": "BLOCK",
+      "severity": "CRITICAL"
+    }
+  },
+  "performance": {
+    "accuracy": 0.9005,
+    "precision": 0.7208,
+    "recall": 0.0724,
+    "f1_score": 0.1317,
+    "roc_auc": 0.7243
+  },
+  "operational": {
+    "total_events": 49999,
+    "total_fraud_events": 5204,
+    "fraud_rate_pct": 10.41,
+    "blocked_calls": 5754,
+    "warned_calls": 8893,
+    "quarantined_calls": 5997,
+    "allowed_calls": 29355,
+    "true_positives_blocked": 651,
+    "false_positives_blocked": 5103,
+    "fp_rate_in_block": 88.69,
+    "avg_fused_risk_score": 0.2799,
+    "avg_risk_fraud": 0.2854,
+    "avg_risk_legit": 0.2793,
+    "blacklist_candidates": 2500,
+    "incidents_generated": 300,
+    "accuracy": 0.9005,
+    "precision": 0.7208,
+    "recall": 0.0724,
+    "f1_score": 0.1317,
+    "roc_auc": 0.7243
+  },
+  "trained_at": "2026-06-11T18:33:14.913276",
+  "random_state": 42
+}

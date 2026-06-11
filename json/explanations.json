@@ -1,0 +1,6439 @@
+[
+  {
+    "call_id": "CALL-A5B2F507",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91223234489",
+    "fused_risk_score": 0.3273,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0784,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4918
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4906
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.212066"
+  },
+  {
+    "call_id": "CALL-253A40FC",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49305521373",
+    "fused_risk_score": 0.4058,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.3291,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5189
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.5176
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "This is IRS. You owe back taxes. Pay with gift cards or face arrest.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.212066"
+  },
+  {
+    "call_id": "CALL-10D97780",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+13105721339",
+    "fused_risk_score": 0.4518,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0573,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.627
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.5888
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5028
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Device attestation missing",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.212066"
+  },
+  {
+    "call_id": "CALL-FA66DCC3",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86212954354",
+    "fused_risk_score": 0.3334,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0527,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "trust_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5031
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4747
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "TLS validation failed",
+      "Device attestation missing"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-722B0B5B",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+44203428388",
+    "fused_risk_score": 0.3385,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1269,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5517
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4932
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4916
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-8149F459",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91226499720",
+    "fused_risk_score": 0.3496,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0186,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4855
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4722
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.3696
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your call is being recorded for quality purposes.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-0D27F81D",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+49304385357",
+    "fused_risk_score": 0.4484,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.021,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.7026
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4975
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "Your insurance is expired. Send payment details to renew now.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-E0E71B22",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+13102465689",
+    "fused_risk_score": 0.345,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1393,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4989
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4983
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4591
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Device attestation missing"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-C675D0C1",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13102271741",
+    "fused_risk_score": 0.3918,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.1915,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5109
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4966
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-1E993ACD",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+49302007293",
+    "fused_risk_score": 0.318,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1952,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5073
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5042
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.45
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-465A7F2E",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+49307723771",
+    "fused_risk_score": 0.328,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0726,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4991
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4895
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-0C9E66E2",
+    "timestamp": "1970-01-01 00:00:00.000000011",
+    "caller_number": "+12023230919",
+    "fused_risk_score": 0.3296,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0267,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5957
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4995
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4665
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-88FF2FB9",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44202737095",
+    "fused_risk_score": 0.3354,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1638,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5076
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4998
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.45
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-AFCA0D66",
+    "timestamp": "1970-01-01 00:00:00.000000011",
+    "caller_number": "+44205780450",
+    "fused_risk_score": 0.3987,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0193,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4879
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4593
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.213067"
+  },
+  {
+    "call_id": "CALL-F54C8B43",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86217906726",
+    "fused_risk_score": 0.3372,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.045,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5034
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4734
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.45
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-4559CDAB",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+91226822184",
+    "fused_risk_score": 0.362,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0355,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4885
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4761
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-0B036767",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44203548421",
+    "fused_risk_score": 0.3174,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0496,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.496
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4762
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.35
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-BB29FC5B",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44208205547",
+    "fused_risk_score": 0.3455,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0652,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4977
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4884
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your bank account is compromised. Transfer funds to this safe account.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-C01129BF",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44201061087",
+    "fused_risk_score": 0.348,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0662,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4964
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.489
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your bank account is compromised. Transfer funds to this safe account.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-83A0E52D",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13106725570",
+    "fused_risk_score": 0.3914,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0226,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.492
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4715
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-620C4D72",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12021225281",
+    "fused_risk_score": 0.3607,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0294,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4854
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4828
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "This is IRS. You owe back taxes. Pay with gift cards or face arrest.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-A79E244F",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+13106478047",
+    "fused_risk_score": 0.4404,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.1424,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.7128
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5233
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4896
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-5A9FD7D6",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86212119043",
+    "fused_risk_score": 0.4545,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0846,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.55
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4975
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-097110AD",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+86213558231",
+    "fused_risk_score": 0.3664,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0382,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4895
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4762
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-8EFC3810",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+91225506259",
+    "fused_risk_score": 0.3635,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0629,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4879
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4868
+      }
+    ],
+    "trust_failures": [
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "This is IRS. You owe back taxes. Pay with gift cards or face arrest.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-7D080EA8",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49308658426",
+    "fused_risk_score": 0.3265,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1105,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.513
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4849
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.214065"
+  },
+  {
+    "call_id": "CALL-439F10ED",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+12026251035",
+    "fused_risk_score": 0.3584,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2024,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5226
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5042
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4903
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-C1E1CEB8",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49304504473",
+    "fused_risk_score": 0.3178,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1131,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "trust_risk",
+        "score": 0.6
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4982
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4917
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "TLS validation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-E0288821",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49301686976",
+    "fused_risk_score": 0.3532,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0817,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4985
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4865
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.3468
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-E3292107",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+44206853584",
+    "fused_risk_score": 0.349,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2002,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5199
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4921
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.3726
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Congratulations you have won a prize. Share your card details to claim.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-ED50543C",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+12025301754",
+    "fused_risk_score": 0.3611,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.5152,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5349
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.493
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-BF6B5C05",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+12029519981",
+    "fused_risk_score": 0.3193,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0653,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.6142
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5029
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4885
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-A2BE2417",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91229503902",
+    "fused_risk_score": 0.4359,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0577,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.6457
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.505
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4964
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-F24B41F7",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86214080761",
+    "fused_risk_score": 0.3858,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0735,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.8893
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4975
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4852
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-86B4B052",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+44201445101",
+    "fused_risk_score": 0.373,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.247,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5148
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4942
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4524
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Press 1 immediately to avoid tax penalty and legal action.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-0F8D0F18",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+13108413023",
+    "fused_risk_score": 0.3397,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1671,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.6619
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5037
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4896
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-7B97D762",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44205353127",
+    "fused_risk_score": 0.3537,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1501,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5974
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5047
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4935
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Thank you for calling. All agents are busy.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-D6DA12B5",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+12029073461",
+    "fused_risk_score": 0.3183,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2571,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5182
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4952
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.3964
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "WARNING: Unauthorized access detected. Call back immediately to secure.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-1ED76605",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13105183839",
+    "fused_risk_score": 0.3594,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1154,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4963
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4957
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.215066"
+  },
+  {
+    "call_id": "CALL-5CCCF67E",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13102079600",
+    "fused_risk_score": 0.3709,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0641,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4919
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4904
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-879D5616",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49304503157",
+    "fused_risk_score": 0.321,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1372,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.6648
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4984
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4965
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-8306FEB2",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+49304867500",
+    "fused_risk_score": 0.3231,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1461,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5008
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5005
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.35
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Government grant approved for you. Need bank account for transfer.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-3C81414A",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44204054390",
+    "fused_risk_score": 0.3502,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.131,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5078
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.499
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.3952
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-D3BD5044",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+49304379569",
+    "fused_risk_score": 0.3601,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1302,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.6551
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5094
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.485
+      }
+    ],
+    "trust_failures": [
+      "Number on blacklist"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": true,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-6BEEA0AE",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49309611474",
+    "fused_risk_score": 0.3557,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0676,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.4993
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.494
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4875
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-D04044E5",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86211183062",
+    "fused_risk_score": 0.3689,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1425,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5103
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4859
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-C90176A3",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91227095929",
+    "fused_risk_score": 0.3542,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.017,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4798
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4525
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "This is IRS. You owe back taxes. Pay with gift cards or face arrest.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-A571784A",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+13107468703",
+    "fused_risk_score": 0.352,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1597,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.6176
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4999
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4984
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "WARNING: Unauthorized access detected. Call back immediately to secure.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-432E460A",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86211529525",
+    "fused_risk_score": 0.3305,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0657,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5022
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4757
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.45
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-C8AEE86A",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91227665088",
+    "fused_risk_score": 0.3194,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.076,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4996
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4863
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.381
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Press 1 immediately to avoid tax penalty and legal action.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-2052AABE",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+91224699391",
+    "fused_risk_score": 0.3442,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0255,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5008
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4659
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.411
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-8DDE4586",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86219744220",
+    "fused_risk_score": 0.3472,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0598,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.6132
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5051
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4806
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch",
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.216576"
+  },
+  {
+    "call_id": "CALL-EB2A204B",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91221288790",
+    "fused_risk_score": 0.3196,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0407,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4867
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.481
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.3419
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-871FB919",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91222404330",
+    "fused_risk_score": 0.3291,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0433,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4918
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4847
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "This is IRS. You owe back taxes. Pay with gift cards or face arrest.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-A1CFAF5A",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12023055723",
+    "fused_risk_score": 0.3438,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1229,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "trust_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5026
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4972
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "TLS validation failed",
+      "Device attestation missing"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-4D8240D3",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13103597480",
+    "fused_risk_score": 0.3383,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0595,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4976
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.482
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4801
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-21140C7F",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+49307374201",
+    "fused_risk_score": 0.3546,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0716,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4952
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4885
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-5C7334CD",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12021675510",
+    "fused_risk_score": 0.3195,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1403,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5624
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5036
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.491
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-BEFBADA9",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+86211898320",
+    "fused_risk_score": 0.3259,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1191,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5034
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4921
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your insurance is expired. Send payment details to renew now.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-FBD09ECC",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+12024621581",
+    "fused_risk_score": 0.3514,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0725,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.7406
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5009
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4879
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-432005D6",
+    "timestamp": "1970-01-01 00:00:00.000000003",
+    "caller_number": "+49304599865",
+    "fused_risk_score": 0.3418,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0766,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4996
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4877
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-3D7D102F",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91228990340",
+    "fused_risk_score": 0.3396,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0737,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5026
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.494
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4817
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-032785EF",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91224788340",
+    "fused_risk_score": 0.3819,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0804,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.51
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4987
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4891
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-10E9F27F",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91226332660",
+    "fused_risk_score": 0.3768,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0372,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.774
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.499
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4847
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": true,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.217586"
+  },
+  {
+    "call_id": "CALL-8570A697",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86218517836",
+    "fused_risk_score": 0.3826,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0148,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.5177
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4845
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your insurance is expired. Send payment details to renew now.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.218583"
+  },
+  {
+    "call_id": "CALL-4F19339C",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91227243669",
+    "fused_risk_score": 0.3666,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1334,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5008
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4925
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4145
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.218583"
+  },
+  {
+    "call_id": "CALL-E1E02860",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+44201448345",
+    "fused_risk_score": 0.4056,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0556,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.8318
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.497
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4852
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "Please hold while we connect your call.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.218583"
+  },
+  {
+    "call_id": "CALL-1F1A5CDA",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+91224319144",
+    "fused_risk_score": 0.368,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0642,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.7162
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4961
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4799
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.218583"
+  },
+  {
+    "call_id": "CALL-3D6AC8B3",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91226304509",
+    "fused_risk_score": 0.3323,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2334,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.6736
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5085
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5041
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Thank you for calling. All agents are busy.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.218583"
+  },
+  {
+    "call_id": "CALL-5CE33E2F",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49306747372",
+    "fused_risk_score": 0.3324,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.122,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4943
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4906
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4417
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.218583"
+  },
+  {
+    "call_id": "CALL-3CEBFDF5",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91222855567",
+    "fused_risk_score": 0.3226,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0234,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.6137
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4796
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4765
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.218583"
+  },
+  {
+    "call_id": "CALL-D7C8E8B5",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12022873421",
+    "fused_risk_score": 0.3774,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0331,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4948
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4729
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.218583"
+  },
+  {
+    "call_id": "CALL-744DEB60",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44205578238",
+    "fused_risk_score": 0.3641,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1694,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5729
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5055
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4995
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-B5C94157",
+    "timestamp": "1970-01-01 00:00:00.000000001",
+    "caller_number": "+91226562067",
+    "fused_risk_score": 0.3671,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1035,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.6762
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5107
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.5
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "TLS validation failed",
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-F33A1115",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+44201575278",
+    "fused_risk_score": 0.3417,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0243,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.487
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4726
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.3014
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Congratulations you have won a prize. Share your card details to claim.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-9EC6CE9C",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+12026001045",
+    "fused_risk_score": 0.3456,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0912,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.5305
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4969
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4923
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "Your computer has virus. Give remote access to our tech support now.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-3A220390",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44206387408",
+    "fused_risk_score": 0.3352,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0232,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4899
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4632
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4086
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-329B67D7",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+91226692493",
+    "fused_risk_score": 0.3488,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2118,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5171
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4883
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "Your insurance is expired. Send payment details to renew now.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-902414B8",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+12022087341",
+    "fused_risk_score": 0.3197,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0729,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "trust_risk",
+        "score": 0.5
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4921
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4896
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-D87001C9",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+12025040479",
+    "fused_risk_score": 0.3234,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.18,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5051
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4958
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4685
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Congratulations you have won a prize. Share your card details to claim.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-C8783462",
+    "timestamp": "1970-01-01 00:00:00.000000011",
+    "caller_number": "+13103715514",
+    "fused_risk_score": 0.3821,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0242,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.682
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4835
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4716
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-A67817FF",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13103658571",
+    "fused_risk_score": 0.3938,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.1375,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5666
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.5193
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4982
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.219586"
+  },
+  {
+    "call_id": "CALL-FCC030B5",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+49308102173",
+    "fused_risk_score": 0.3328,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1013,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5108
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4809
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.3
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "WARNING: Unauthorized access detected. Call back immediately to secure.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-8A4F0FAB",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44205892472",
+    "fused_risk_score": 0.3605,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1051,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5529
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4986
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.487
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-3E9FA47B",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+44209704434",
+    "fused_risk_score": 0.3512,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1203,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5085
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.5
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4932
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Device attestation missing",
+      "Caller ID mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-7A189D8E",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+49301317537",
+    "fused_risk_score": 0.3444,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0895,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "trust_risk",
+        "score": 0.5
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4944
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4911
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "TLS validation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-AC692E6F",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+91224463351",
+    "fused_risk_score": 0.3436,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.127,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4994
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4958
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.44
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-22F3084C",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49302849396",
+    "fused_risk_score": 0.3357,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0532,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4963
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.486
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.35
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Device attestation missing"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Government grant approved for you. Need bank account for transfer.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-6ABAA7A9",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44209007407",
+    "fused_risk_score": 0.3444,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0524,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "trust_risk",
+        "score": 0.7
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4994
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4844
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Device attestation missing",
+      "Caller ID mismatch",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-F360407E",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86212072647",
+    "fused_risk_score": 0.4052,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.1262,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.506
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5007
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Your bank account is compromised. Transfer funds to this safe account.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-700A3216",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+12022222869",
+    "fused_risk_score": 0.3392,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.068,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4895
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4883
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4876
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-4BD0E176",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12024982588",
+    "fused_risk_score": 0.3968,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0217,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4853
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.449
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your bank account is compromised. Transfer funds to this safe account.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-9D7AC551",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44203901614",
+    "fused_risk_score": 0.3322,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0212,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4966
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4728
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "This is IRS. You owe back taxes. Pay with gift cards or face arrest.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.220583"
+  },
+  {
+    "call_id": "CALL-A26DFFC1",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12024720464",
+    "fused_risk_score": 0.4326,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0798,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.596
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5001
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.221585"
+  },
+  {
+    "call_id": "CALL-B878AFBC",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86211770173",
+    "fused_risk_score": 0.3339,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1213,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.5374
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4986
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4955
+      }
+    ],
+    "trust_failures": [
+      "Number on blacklist"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": true,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.221585"
+  },
+  {
+    "call_id": "CALL-227E52F6",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49306642264",
+    "fused_risk_score": 0.3492,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0526,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5015
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4812
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Press 1 immediately to avoid tax penalty and legal action.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.221585"
+  },
+  {
+    "call_id": "CALL-689154F5",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12025221038",
+    "fused_risk_score": 0.3258,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.4381,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5208
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4999
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.3044
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.221585"
+  },
+  {
+    "call_id": "CALL-634C5861",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+12029411883",
+    "fused_risk_score": 0.3432,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0109,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4925
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4376
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.221585"
+  },
+  {
+    "call_id": "CALL-F650816E",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86216196467",
+    "fused_risk_score": 0.3567,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1626,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.6058
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5029
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4885
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.221585"
+  },
+  {
+    "call_id": "CALL-ABEBE238",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+13109961343",
+    "fused_risk_score": 0.3529,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0693,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4983
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.481
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4366
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-824A4FBB",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+86212030117",
+    "fused_risk_score": 0.395,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0508,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "trust_risk",
+        "score": 0.55
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5111
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "This is IRS. You owe back taxes. Pay with gift cards or face arrest.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-BE43F481",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+13108211179",
+    "fused_risk_score": 0.3299,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.04,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4908
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4777
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.4081
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-83E8A371",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86218235574",
+    "fused_risk_score": 0.3293,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0725,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5041
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4757
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-ED8A7D21",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44206205597",
+    "fused_risk_score": 0.3594,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.083,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.5908
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5009
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4933
+      }
+    ],
+    "trust_failures": [
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-CCE46B37",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44204609736",
+    "fused_risk_score": 0.374,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.149,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5727
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4979
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4966
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-CD9FCAFF",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44205873594",
+    "fused_risk_score": 0.3266,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0489,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5045
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4986
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4739
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your call is being recorded for quality purposes.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-A0CEEC16",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86217941245",
+    "fused_risk_score": 0.3453,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1012,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4942
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4877
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.399
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-13F0694F",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13101829735",
+    "fused_risk_score": 0.3392,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0421,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4884
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4866
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.381
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Press 1 immediately to avoid tax penalty and legal action.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-53F4DBAD",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86214177993",
+    "fused_risk_score": 0.3783,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0197,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4989
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.464
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-0826EB23",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+49302805468",
+    "fused_risk_score": 0.3196,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0359,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4867
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.485
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.42
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.222604"
+  },
+  {
+    "call_id": "CALL-E327DE55",
+    "timestamp": "1970-01-01 00:00:00.000000001",
+    "caller_number": "+49306525633",
+    "fused_risk_score": 0.4433,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.2227,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5102
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4969
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch",
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-0CB733E6",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44206897498",
+    "fused_risk_score": 0.3516,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0809,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4957
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4904
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-5A1A5C5F",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44205327819",
+    "fused_risk_score": 0.3272,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0742,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5021
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4861
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.45
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-B9DB651F",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+13102255564",
+    "fused_risk_score": 0.3475,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1791,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.524
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5092
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5024
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-986F14D9",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+12023276106",
+    "fused_risk_score": 0.3334,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0811,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.6763
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5013
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4895
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": true,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-AD0D4468",
+    "timestamp": "1970-01-01 00:00:00.000000011",
+    "caller_number": "+86214578226",
+    "fused_risk_score": 0.348,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1798,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.6144
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4977
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4927
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-A2D7B967",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86214364695",
+    "fused_risk_score": 0.3253,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0178,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4814
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4697
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-35D96620",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86214352252",
+    "fused_risk_score": 0.3543,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.019,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4961
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4672
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Device attestation missing"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-AA00B72B",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86216984684",
+    "fused_risk_score": 0.4544,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.1914,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.7149
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5048
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your bank account is compromised. Transfer funds to this safe account.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-2C5C975A",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91223694287",
+    "fused_risk_score": 0.4274,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.195,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "trust_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5068
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "TLS validation failed",
+      "Device attestation missing"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "This is IRS. You owe back taxes. Pay with gift cards or face arrest.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.223585"
+  },
+  {
+    "call_id": "CALL-AFE0A653",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86211703662",
+    "fused_risk_score": 0.3512,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.123,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.5587
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5012
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4963
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-20F3A0D5",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+13105092097",
+    "fused_risk_score": 0.3303,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2228,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5664
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5101
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4911
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-58021E89",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+12025043064",
+    "fused_risk_score": 0.3738,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.26,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5097
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5076
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "TLS validation failed"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your insurance is expired. Send payment details to renew now.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-E685270C",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44203602967",
+    "fused_risk_score": 0.421,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0353,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.8891
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4799
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4773
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-FC2598BC",
+    "timestamp": "1970-01-01 00:00:00.000000001",
+    "caller_number": "+44207878974",
+    "fused_risk_score": 0.338,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1573,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5786
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4966
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4921
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-86BEBD93",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86214185714",
+    "fused_risk_score": 0.3571,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1369,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5021
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4889
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4714
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-6A89DE91",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86211768734",
+    "fused_risk_score": 0.3401,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.093,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4998
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.4881
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4862
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-0D61303D",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91229476563",
+    "fused_risk_score": 0.3667,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0311,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4798
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4765
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Congratulations you have won a prize. Share your card details to claim.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-E7A65E9A",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86218271476",
+    "fused_risk_score": 0.336,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0608,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5997
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4898
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4766
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-CF874636",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+86215108880",
+    "fused_risk_score": 0.3391,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0757,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.5681
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5006
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4881
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-0856CFB0",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+86213859244",
+    "fused_risk_score": 0.331,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0176,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4823
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4681
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.3724
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Government grant approved for you. Need bank account for transfer.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-8A064AFA",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91229577064",
+    "fused_risk_score": 0.4118,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.3224,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.8716
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5106
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5046
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.224584"
+  },
+  {
+    "call_id": "CALL-FAE55F0B",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86214303457",
+    "fused_risk_score": 0.405,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.149,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5081
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5015
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4955
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-5D10B7F7",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13107238795",
+    "fused_risk_score": 0.327,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0904,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.494
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4908
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4677
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-16F34B12",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91221716756",
+    "fused_risk_score": 0.3561,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1394,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5044
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4938
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4855
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Press 1 immediately to avoid tax penalty and legal action.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-849D7464",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91222400283",
+    "fused_risk_score": 0.3182,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0977,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4982
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4885
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.2743
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-3D29E0F5",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44203118324",
+    "fused_risk_score": 0.3562,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0424,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4891
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4852
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your bank account is compromised. Transfer funds to this safe account.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-79FC8527",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+44202059622",
+    "fused_risk_score": 0.4335,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0638,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.67
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.5752
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5023
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-6DED4D73",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+91225084752",
+    "fused_risk_score": 0.3571,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0197,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4895
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4507
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4165
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Device attestation missing"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-59F68D55",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+91226254224",
+    "fused_risk_score": 0.3195,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0516,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4995
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4856
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-323898BB",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86211464071",
+    "fused_risk_score": 0.3309,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0557,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4996
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4754
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.35
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Government grant approved for you. Need bank account for transfer.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-01466A68",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13107609876",
+    "fused_risk_score": 0.3325,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1265,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5081
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4932
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-9D9FE144",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86213383366",
+    "fused_risk_score": 0.4045,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.2072,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.6386
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5059
+      }
+    ],
+    "trust_failures": [
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-EF2867DC",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44204395049",
+    "fused_risk_score": 0.3238,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1088,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5172
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4993
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4954
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-1F16F7A1",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49308132508",
+    "fused_risk_score": 0.3239,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1067,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4969
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4967
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.45
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Device attestation missing",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.225587"
+  },
+  {
+    "call_id": "CALL-41656EE3",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+12025448748",
+    "fused_risk_score": 0.3428,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1293,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5056
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4981
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.3149
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-0A01E212",
+    "timestamp": "1970-01-01 00:00:00.000000011",
+    "caller_number": "+86215137270",
+    "fused_risk_score": 0.4257,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0356,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.9076
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4841
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4786
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-80AAF159",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44209847905",
+    "fused_risk_score": 0.3248,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0664,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.542
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.497
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4853
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-E1E04E0E",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+86212020154",
+    "fused_risk_score": 0.3578,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1221,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5427
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4956
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.487
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-A6798AB1",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91227843532",
+    "fused_risk_score": 0.323,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0443,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4879
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4772
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4361
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-A94754AC",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+13107733215",
+    "fused_risk_score": 0.3789,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.1861,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5194
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5074
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4955
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-5A2A996C",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49304047569",
+    "fused_risk_score": 0.3202,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1248,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4975
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4942
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.46
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-5B310575",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91228996198",
+    "fused_risk_score": 0.3233,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0381,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4855
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4752
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4656
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-261E8217",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12026004998",
+    "fused_risk_score": 0.3525,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0898,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5156
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4855
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.3585
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-B2CD23DC",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91228347689",
+    "fused_risk_score": 0.3712,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0359,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.7298
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4955
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4852
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-AF9B0955",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12027666455",
+    "fused_risk_score": 0.4253,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0739,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.8051
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5018
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "TLS validation failed",
+      "Caller ID mismatch",
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-EE456F5C",
+    "timestamp": "1970-01-01 00:00:00.000000011",
+    "caller_number": "+44203710241",
+    "fused_risk_score": 0.3683,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0977,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5071
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4757
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your bank account is compromised. Transfer funds to this safe account.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.226583"
+  },
+  {
+    "call_id": "CALL-AF51EB32",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+13107849486",
+    "fused_risk_score": 0.3341,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2251,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5066
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.506
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.381
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Press 1 immediately to avoid tax penalty and legal action.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-F731013D",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86219337735",
+    "fused_risk_score": 0.3274,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0844,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4936
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.4932
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4924
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-E3174B8C",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+86212132658",
+    "fused_risk_score": 0.3557,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.098,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4951
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.495
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.493
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-DDFB0714",
+    "timestamp": "1970-01-01 00:00:00.000000011",
+    "caller_number": "+44202047343",
+    "fused_risk_score": 0.3438,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1317,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.5478
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4997
+      }
+    ],
+    "trust_failures": [
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "Your insurance is expired. Send payment details to renew now.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-C26DD276",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+44208393979",
+    "fused_risk_score": 0.3197,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0283,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4835
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4795
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.444
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-4354B520",
+    "timestamp": "1970-01-01 00:00:00.000000011",
+    "caller_number": "+13109082655",
+    "fused_risk_score": 0.3431,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0609,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.4991
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4968
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4813
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-ADB1860F",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12029551646",
+    "fused_risk_score": 0.3634,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0233,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.729
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.491
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4637
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your call is being recorded for quality purposes.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-52D24769",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+49305068316",
+    "fused_risk_score": 0.3472,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0555,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.81
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5023
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4891
+      }
+    ],
+    "trust_failures": [
+      "Number on blacklist"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": true,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-4EEE2290",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49301783066",
+    "fused_risk_score": 0.3834,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.029,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4967
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4701
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your insurance is expired. Send payment details to renew now.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-8B32757D",
+    "timestamp": "1970-01-01 00:00:00.000000005",
+    "caller_number": "+44204659985",
+    "fused_risk_score": 0.4094,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.3199,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.6895
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.5648
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.525
+      }
+    ],
+    "trust_failures": [
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.227583"
+  },
+  {
+    "call_id": "CALL-0E4A5FCB",
+    "timestamp": "1970-01-01 00:00:00.000000011",
+    "caller_number": "+91223773707",
+    "fused_risk_score": 0.3742,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0092,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5692
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4626
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.4425
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-603EE5C3",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+49306068002",
+    "fused_risk_score": 0.3684,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.189,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5107
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4946
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-B7C233C7",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+49302935740",
+    "fused_risk_score": 0.3375,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.047,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4901
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4858
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.4278
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-04CCCAF3",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91226155872",
+    "fused_risk_score": 0.4203,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.0166,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4855
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4795
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-575D5FE4",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+44205421590",
+    "fused_risk_score": 0.3795,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.1529,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.5417
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5042
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4866
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Press 1 immediately to avoid tax penalty and legal action.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-2443D0E8",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13101812461",
+    "fused_risk_score": 0.3464,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0673,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4922
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4879
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.45
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Device attestation missing"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Please mute your line when not speaking.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-732B425B",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13104486669",
+    "fused_risk_score": 0.3188,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1592,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5078
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.499
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.35
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-7A4D7303",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91222847865",
+    "fused_risk_score": 0.3902,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.1543,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5041
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5005
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-CD2B30A5",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+13105897954",
+    "fused_risk_score": 0.3611,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0281,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4866
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4733
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your bank account is compromised. Transfer funds to this safe account.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-7A3F1E9B",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+13106241218",
+    "fused_risk_score": 0.327,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1239,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4977
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4903
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4288
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-6AD88715",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+91226150635",
+    "fused_risk_score": 0.3253,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1528,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.4963
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4963
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4779
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-69E0115F",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+12026290717",
+    "fused_risk_score": 0.3349,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.105,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.7045
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5007
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4888
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-D5A09B3F",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49307211411",
+    "fused_risk_score": 0.3359,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0836,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.5628
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4969
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4906
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-7AC18EBD",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+12024303389",
+    "fused_risk_score": 0.345,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2198,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5121
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4981
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.45
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Caller ID mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": true,
+    "transcript_snippet": "Please hold while we connect your call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-29A7420F",
+    "timestamp": "1970-01-01 00:00:00",
+    "caller_number": "+44201164053",
+    "fused_risk_score": 0.3484,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1032,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5025
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4914
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.4
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "The project deadline is next Friday.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-C1C0865F",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49305530889",
+    "fused_risk_score": 0.3657,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0731,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.65
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.6186
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5006
+      }
+    ],
+    "trust_failures": [
+      "Number on blacklist"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": true,
+    "transcript_snippet": "URGENT: Your account will be suspended. Verify your credentials NOW.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-78C4793C",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+13109439469",
+    "fused_risk_score": 0.3351,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0472,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.7905
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4944
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4827
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Provide your Social Security number to process your refund immediately.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-5C160FD2",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+13105845710",
+    "fused_risk_score": 0.3214,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0717,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5005
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4877
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.35
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "Government grant approved for you. Need bank account for transfer.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-DF7AFEA8",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12025813673",
+    "fused_risk_score": 0.3912,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.043,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.805
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5053
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4763
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": true,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.228582"
+  },
+  {
+    "call_id": "CALL-4ADE63DF",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49305335702",
+    "fused_risk_score": 0.3493,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2365,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5257
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4946
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.4057
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": true,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-8B3857DE",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44207152941",
+    "fused_risk_score": 0.3387,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2626,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5224
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.505
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "This is IRS. You owe back taxes. Pay with gift cards or face arrest.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-8204EFE9",
+    "timestamp": "1970-01-01 00:00:00.000000008",
+    "caller_number": "+44203322466",
+    "fused_risk_score": 0.3193,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.131,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.502
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5018
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.3427
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-E4BCF688",
+    "timestamp": "1970-01-01 00:00:00.000000004",
+    "caller_number": "+91221388076",
+    "fused_risk_score": 0.3257,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2184,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5143
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4943
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.3481
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your computer has virus. Give remote access to our tech support now.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-34C059FA",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91229361735",
+    "fused_risk_score": 0.3341,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1637,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.532
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4953
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4947
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-D4467B5F",
+    "timestamp": "1970-01-01 00:00:00.000000003",
+    "caller_number": "+91229480932",
+    "fused_risk_score": 0.3342,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.1051,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5142
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4856
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.3486
+      }
+    ],
+    "trust_failures": [],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "We will now open the floor for questions.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-8BC2F175",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+44205439850",
+    "fused_risk_score": 0.3621,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0907,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5059
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4879
+      }
+    ],
+    "trust_failures": [
+      "Device attestation missing"
+    ],
+    "stir_shaken": "A",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your bank account is compromised. Transfer funds to this safe account.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-7133F3D3",
+    "timestamp": "1970-01-01 00:00:00.000000001",
+    "caller_number": "+12022549302",
+    "fused_risk_score": 0.3234,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.047,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.4957
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4769
+      },
+      {
+        "factor": "trust_risk",
+        "score": 0.45
+      }
+    ],
+    "trust_failures": [
+      "Caller ID mismatch",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Could you please share your screen for the presentation?",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-2AE79240",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+91226877845",
+    "fused_risk_score": 0.3934,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.138,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.7138
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.493
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4919
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": false,
+    "transcript_snippet": "Thank you for joining the conference call today.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-827CB0FC",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12026416775",
+    "fused_risk_score": 0.3569,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.0819,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "reputation_risk",
+        "score": 0.6892
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.492
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4892
+      }
+    ],
+    "trust_failures": [
+      "TLS validation failed",
+      "Number on blacklist"
+    ],
+    "stir_shaken": "B",
+    "blacklist_hit": true,
+    "transcript_snippet": "Sales team please join the breakout room.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-07719319",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+49304144480",
+    "fused_risk_score": 0.3846,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.1457,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "trust_risk",
+        "score": 0.55
+      },
+      {
+        "factor": "transcript_risk",
+        "score": 0.5405
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5097
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Device attestation missing",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Your insurance is expired. Send payment details to renew now.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-322D60A6",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12023825896",
+    "fused_risk_score": 0.3877,
+    "risk_level": "CRITICAL",
+    "meta_fraud_prob": 0.2192,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "behavior_risk",
+        "score": 0.607
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.5107
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.4918
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Geographic origin mismatch"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "Let us review the quarterly earnings report.",
+    "recommended_action": "AUTO-BLOCK",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.230087"
+  },
+  {
+    "call_id": "CALL-4C92EB38",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12025876872",
+    "fused_risk_score": 0.3484,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2581,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "voice_risk",
+        "score": 0.5167
+      },
+      {
+        "factor": "network_risk",
+        "score": 0.5012
+      },
+      {
+        "factor": "behavior_risk",
+        "score": 0.4046
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed",
+      "Caller ID mismatch"
+    ],
+    "stir_shaken": "C",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.231094"
+  },
+  {
+    "call_id": "CALL-6D03740B",
+    "timestamp": "1970-01-01 00:00:00.000000002",
+    "caller_number": "+12029908385",
+    "fused_risk_score": 0.3219,
+    "risk_level": "HIGH",
+    "meta_fraud_prob": 0.2337,
+    "actual_label": 0,
+    "top_risk_factors": [
+      {
+        "factor": "network_risk",
+        "score": 0.5166
+      },
+      {
+        "factor": "voice_risk",
+        "score": 0.4931
+      },
+      {
+        "factor": "reputation_risk",
+        "score": 0.3437
+      }
+    ],
+    "trust_failures": [
+      "STIR/SHAKEN attestation failed"
+    ],
+    "stir_shaken": "NONE",
+    "blacklist_hit": false,
+    "transcript_snippet": "The meeting recording will be sent after the call.",
+    "recommended_action": "QUARANTINE",
+    "explanation_version": "1.0",
+    "generated_at": "2026-06-11T18:33:04.231094"
+  }
+]
