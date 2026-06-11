@@ -1,0 +1,38 @@
+{
+  "risk_thresholds": {
+    "allow": {
+      "min": 0.0,
+      "max": 0.35,
+      "action": "ALLOW",
+      "severity": "LOW"
+    },
+    "warn": {
+      "min": 0.35,
+      "max": 0.55,
+      "action": "WARN",
+      "severity": "MEDIUM"
+    },
+    "quarantine": {
+      "min": 0.55,
+      "max": 0.7,
+      "action": "QUARANTINE",
+      "severity": "HIGH"
+    },
+    "block": {
+      "min": 0.7,
+      "max": 1.0,
+      "action": "BLOCK",
+      "severity": "CRITICAL"
+    }
+  },
+  "fusion_weights": {
+    "trust_risk": 0.15,
+    "behavior_risk": 0.2,
+    "voice_risk": 0.2,
+    "network_risk": 0.15,
+    "reputation_risk": 0.15,
+    "transcript_risk": 0.15
+  },
+  "version": "1.0",
+  "created_at": "2026-06-11T18:32:30.474520"
+}
